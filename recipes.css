@@ -1,0 +1,134 @@
+.images a, .header-text a {
+    text-decoration: none;
+    color: #024D62;
+}
+
+.images {
+    cursor: pointer;
+}
+
+.recipes-text {
+    color: #024D62;
+}
+
+.return-button {
+    background-color: #fff;
+    color: #ffd300;
+    border: 2px solid #ffd300;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    font-weight: 900;
+}
+
+.return-button:hover {
+    background-color: #ffd300;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.next-button {
+    background-color: #ffd300;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.5rem 3.4rem 0.5rem 3.4rem;
+    font-weight: 900;
+    position: absolute;
+    left: 70%;
+}
+
+.next-button:hover {
+    background-color: #fff;
+    color: #ffd300;
+    border: 2px solid #ffd300;
+}
+
+.next-button-div {
+    position: relative;
+}
+
+.icons {
+    background: #024D62;
+    color: #fff;
+    padding-left: 38%;
+}
+
+.fab {
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.fab:hover {
+    color: #ffd300;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .next-button {
+        left: 65%;
+    }
+
+    .images img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .next-button {
+        left: 55%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .next-button {
+        left: 9%;
+    }
+
+    .icons {
+        padding-left: 30%;
+    }
+
+    .fab {
+        margin-right: 2rem;
+    }
+
+    .images img {
+        height: 450px;
+    }
+
+
+}
+
+@media only screen and (max-width: 280px) {
+    .next-button {
+        left: 5%;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+
+    .return-button {
+        padding: 0.4rem 1rem 0.4rem 1rem;
+    }
+
+    .icons {
+        padding-left: 30%;
+    }
+
+    .fab {
+        margin-right: 0.5rem;
+    }
+
+    .images img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .next-button {
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    }
+
+    .return-button {
+        padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    }
+
+    .images img {
+        height: 300px;
+    }
+}
