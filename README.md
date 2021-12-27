@@ -1,6 +1,6 @@
 # CukurovaLemonadeProject
 
-for preview:
+
 [Demo](https://rkymtc.github.io/CukurovaLemonadeProject/)
 
 ## Bilgisayarınızda Çalıştırın
